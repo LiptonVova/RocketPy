@@ -32,8 +32,11 @@ float delay = 7.0;
 
 
 //initialize
-initialize(rp1, rf1,"spec/Frenzy_J.txt");
-use_thrustCurve("spec/L935.txt");
+// initialize(rp1, rf1,"spec/Frenzy_J.txt");
+// use_thrustCurve("spec/L935.txt");
+
+initialize(rp1, rf1, "spec/Arachnid_D12-7.txt");
+use_thrustCurve("spec/Payloader_D12-7.txt");
 btime = get_btime();
 int ind = 0;
 

@@ -2,8 +2,6 @@
 #define calc_INCLUDED
 //g++ macro.cpp GPT.cpp mroot.cpp -Wall -o2 -o test1 `root-config --cflags --glibs` -std=c++0x -pthread
 
-
-
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
@@ -19,8 +17,6 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include "/home/vova_rybin/RocketPy/cpp/cpress/cpress.hpp"
-
-
 
 using namespace std;
 
@@ -93,7 +89,29 @@ float mag(vec v1);
 //deploy chute, reverses and changes value of drag coefficient
 void deploy_Chute();
 
+// Global
+extern float dragCd;
+extern float Xarea;
+extern float stmass;
+extern float wind;
 
+extern float tstep;
+extern float thrust;
+extern float btime;
+extern float promass;
+extern float tmass;
+extern float para;
+extern float vintx, vinty;
+extern bool par;
+extern bool thcurv;
+
+extern float pp0;
+extern float pp1;
+extern float pp2;
+extern float pp3;
+extern float pp4;
+extern float pp5;
+extern float pp6;
 
 
 #endif

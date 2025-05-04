@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/pybind11/include",
+                "/home/vova_rybin/anaconda3/envs/Rocket/include",
+                "/home/vova_rybin/anaconda3/envs/Rocket/include/python3.13",
+                "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/pybind11/include/",
+                "/home/vova_rybin/anaconda3/envs/Rocket/lib"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++98",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
