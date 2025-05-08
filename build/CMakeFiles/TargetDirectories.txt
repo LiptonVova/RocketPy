@@ -1,0 +1,3 @@
+/home/vova_rybin/RocketPy/build/CMakeFiles/rocket_core.dir
+/home/vova_rybin/RocketPy/build/CMakeFiles/edit_cache.dir
+/home/vova_rybin/RocketPy/build/CMakeFiles/rebuild_cache.dir

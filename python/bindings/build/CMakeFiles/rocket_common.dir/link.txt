@@ -1,2 +1,0 @@
-/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-ar qc librocket_common.a CMakeFiles/rocket_common.dir/home/vova_rybin/RocketPy/cpp/simcalc/calc.cpp.o CMakeFiles/rocket_common.dir/home/vova_rybin/RocketPy/cpp/vroot/root.cpp.o
-/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-ranlib librocket_common.a

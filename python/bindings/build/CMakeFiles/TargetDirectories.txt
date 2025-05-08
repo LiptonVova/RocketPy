@@ -1,9 +1,0 @@
-/home/vova_rybin/RocketPy/python/bindings/build/CMakeFiles/rocket_common.dir
-/home/vova_rybin/RocketPy/python/bindings/build/CMakeFiles/rocket_core.dir
-/home/vova_rybin/RocketPy/python/bindings/build/CMakeFiles/rocket_root.dir
-/home/vova_rybin/RocketPy/python/bindings/build/CMakeFiles/edit_cache.dir
-/home/vova_rybin/RocketPy/python/bindings/build/CMakeFiles/rebuild_cache.dir
-/home/vova_rybin/RocketPy/python/bindings/build/CMakeFiles/list_install_components.dir
-/home/vova_rybin/RocketPy/python/bindings/build/CMakeFiles/install.dir
-/home/vova_rybin/RocketPy/python/bindings/build/CMakeFiles/install/local.dir
-/home/vova_rybin/RocketPy/python/bindings/build/CMakeFiles/install/strip.dir
