@@ -2,3 +2,4 @@ Metadata-Version: 2.4
 Name: PyRocketSim
 Version: 0.1
 Requires-Dist: matplotlib
+Dynamic: requires-dist
