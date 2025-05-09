@@ -8,18 +8,10 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # os: [ubuntu-latest, windows-latest, macos-latest]
-        # python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
         os: [ubuntu-latest]
         python-version: ["3.10"]
 
     steps:
-    - name: Remove Zone.Identifier files (Windows only)
-      if: runner.os == 'Windows'
-      run: |
-        Get-ChildItem -Recurse -Force "*:Zone.Identifier" -ErrorAction SilentlyContinue | Remove-Item -Force -ErrorAction SilentlyContinue
-      shell: powershell
-
     - uses: actions/checkout@v4
       with:
         submodules: recursive
@@ -29,17 +21,10 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
 
-    - name: Install system dependencies (Linux)
-      if: runner.os == 'Linux'
+    - name: Install system dependencies
       run: |
         sudo apt-get update
         sudo apt-get install -y build-essential cmake ninja-build
-
-    - name: Install system dependencies (macOS)
-      if: runner.os == 'macOS'
-      run: |
-        brew update
-        brew install cmake ninja
 
     - name: Install cibuildwheel
       run: pip install cibuildwheel==2.16.0
@@ -48,15 +33,13 @@ jobs:
       run: cibuildwheel --output-dir wheelhouse
       env:
         CIBW_BUILD_VERBOSITY: 1
-        CIBW_BEFORE_BUILD: pip install pybind11
-        CIBW_BEFORE_BUILD_LINUX: yum install -y python3-devel || apt-get install -y python3-dev || true
+        CIBW_BEFORE_BUILD: pip install pybind11 numpy
         CIBW_ENVIRONMENT: "PYBIND11_USE_CMAKE=1"
         CIBW_ARCHS_LINUX: auto64
-        CIBW_SKIP: "cp36-* cp37-* pp* *-musllinux_*"
+        CIBW_SKIP: "*-musllinux_* pp*"
 
     - name: Upload wheels
       uses: actions/upload-artifact@v4
       with:
         name: wheels-${{ matrix.os }}-py${{ matrix.python-version }}
         path: wheelhouse/*.whl
-        retention-days: 7

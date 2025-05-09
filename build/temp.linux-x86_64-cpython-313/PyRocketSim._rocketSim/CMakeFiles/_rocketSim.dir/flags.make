@@ -4,7 +4,7 @@
 # compile CXX with /home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++
 CXX_DEFINES = -D_rocketSim_EXPORTS
 
-CXX_INCLUDES = -isystem /home/vova_rybin/anaconda3/envs/Rocket/include/python3.13 -isystem /tmp/pip-build-env-_kcmmqsp/overlay/lib/python3.13/site-packages/pybind11/include
+CXX_INCLUDES = -isystem /tmp/build-env-oykm69ba/lib/python3.13/site-packages/pybind11/include -isystem /home/vova_rybin/anaconda3/envs/Rocket/include/python3.13
 
-CXX_FLAGS = -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include -O3 -DNDEBUG -std=gnu++20 -fPIC -fvisibility=hidden -flto -fno-fat-lto-objects
+CXX_FLAGS = -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include -O3 -DNDEBUG -fPIC -fvisibility=hidden -flto -fno-fat-lto-objects
 

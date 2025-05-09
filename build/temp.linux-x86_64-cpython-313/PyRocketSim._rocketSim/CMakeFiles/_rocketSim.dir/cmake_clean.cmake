@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "/home/vova_rybin/RocketPy/PyRocketSim/_rocketSim"
-  "/home/vova_rybin/RocketPy/PyRocketSim/_rocketSim.pdb"
   "CMakeFiles/_rocketSim.dir/link.d"
   "CMakeFiles/_rocketSim.dir/src/simcalc/calc.cpp.o"
   "CMakeFiles/_rocketSim.dir/src/simcalc/calc.cpp.o.d"
   "CMakeFiles/_rocketSim.dir/src/wrapper.cpp.o"
   "CMakeFiles/_rocketSim.dir/src/wrapper.cpp.o.d"
+  "_rocketSim.pdb"
+  "_rocketSim.so"
 )
 
 # Per-language clean rules from dependency scanning.
