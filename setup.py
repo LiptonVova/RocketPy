@@ -3,6 +3,7 @@ from setuptools.command.build_ext import build_ext
 import os
 import sys
 import subprocess
+import pybind11
 
 class CMakeBuildExt(build_ext):
     def run(self):
@@ -19,7 +20,8 @@ class CMakeBuildExt(build_ext):
         
         cmake_args = [
             f'-DCMAKE_LIBRARY_OUTPUT_DIRECTORY={extdir}',
-            f'-DPYTHON_EXECUTABLE={sys.executable}'
+            f'-DPYTHON_EXECUTABLE={sys.executable}',
+            f'-Dpybind11_DIR={pybind11.get_cmake_dir()}'
         ]
 
         build_temp = os.path.abspath(self.build_temp)

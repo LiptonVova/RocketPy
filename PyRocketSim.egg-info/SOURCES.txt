@@ -8,5 +8,6 @@ PyRocketSim/visualization.py
 PyRocketSim.egg-info/PKG-INFO
 PyRocketSim.egg-info/SOURCES.txt
 PyRocketSim.egg-info/dependency_links.txt
+PyRocketSim.egg-info/not-zip-safe
 PyRocketSim.egg-info/requires.txt
 PyRocketSim.egg-info/top_level.txt

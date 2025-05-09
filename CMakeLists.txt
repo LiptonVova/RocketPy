@@ -25,3 +25,4 @@ set_target_properties(_rocketSim PROPERTIES
     OUTPUT_NAME "_rocketSim"
     SUFFIX "${PYBIND11_MODULE_EXTENSION}"
 )
+

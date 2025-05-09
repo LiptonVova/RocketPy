@@ -4,17 +4,5 @@ version = "0.1"
 dependencies = ["matplotlib"]
 
 [build-system]
-requires = ["setuptools", "wheel", "cmake>=3.15", "pybind11", "scikit-build>=0.13"]
+requires = ["setuptools>=42", "wheel", "cmake>=3.15", "pybind11>=2.6"]
 build-backend = "setuptools.build_meta"
-
-[tool.cibuildwheel]
-build-frontend = "build"
-
-# Для Linux
-manylinux-x86_64-image = "manylinux_2_28"
-
-# Для Windows
-test-command = "python -c \"import PyRocketSim; PyRocketSim.__version__\""
-
-[tool.cibuildwheel.windows]
-backend = "native"
