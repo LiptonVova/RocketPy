@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/vova_rybin/RocketPy/src/simcalc/calc.cpp" "CMakeFiles/rocket_core.dir/src/simcalc/calc.cpp.o" "gcc" "CMakeFiles/rocket_core.dir/src/simcalc/calc.cpp.o.d"
-  "/home/vova_rybin/RocketPy/src/wrapper.cpp" "CMakeFiles/rocket_core.dir/src/wrapper.cpp.o" "gcc" "CMakeFiles/rocket_core.dir/src/wrapper.cpp.o.d"
+  "/home/vova_rybin/RocketPy/src/simcalc/calc.cpp" "CMakeFiles/_rocketSim.dir/src/simcalc/calc.cpp.o" "gcc" "CMakeFiles/_rocketSim.dir/src/simcalc/calc.cpp.o.d"
+  "/home/vova_rybin/RocketPy/src/wrapper.cpp" "CMakeFiles/_rocketSim.dir/src/wrapper.cpp.o" "gcc" "CMakeFiles/_rocketSim.dir/src/wrapper.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

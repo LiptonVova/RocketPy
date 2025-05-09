@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/vova_rybin/RocketPy/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/rocket_core.dir/all
+all: CMakeFiles/_rocketSim.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/rocket_core.dir/clean
+clean: CMakeFiles/_rocketSim.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/rocket_core.dir
+# Target rules for target CMakeFiles/_rocketSim.dir
 
 # All Build rule for target.
-CMakeFiles/rocket_core.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rocket_core.dir/build.make CMakeFiles/rocket_core.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rocket_core.dir/build.make CMakeFiles/rocket_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vova_rybin/RocketPy/build/CMakeFiles --progress-num=1,2,3 "Built target rocket_core"
-.PHONY : CMakeFiles/rocket_core.dir/all
+CMakeFiles/_rocketSim.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_rocketSim.dir/build.make CMakeFiles/_rocketSim.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_rocketSim.dir/build.make CMakeFiles/_rocketSim.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vova_rybin/RocketPy/build/CMakeFiles --progress-num=1,2,3 "Built target _rocketSim"
+.PHONY : CMakeFiles/_rocketSim.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/rocket_core.dir/rule: cmake_check_build_system
+CMakeFiles/_rocketSim.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vova_rybin/RocketPy/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rocket_core.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_rocketSim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vova_rybin/RocketPy/build/CMakeFiles 0
-.PHONY : CMakeFiles/rocket_core.dir/rule
+.PHONY : CMakeFiles/_rocketSim.dir/rule
 
 # Convenience name for target.
-rocket_core: CMakeFiles/rocket_core.dir/rule
-.PHONY : rocket_core
+_rocketSim: CMakeFiles/_rocketSim.dir/rule
+.PHONY : _rocketSim
 
 # clean rule for target.
-CMakeFiles/rocket_core.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rocket_core.dir/build.make CMakeFiles/rocket_core.dir/clean
-.PHONY : CMakeFiles/rocket_core.dir/clean
+CMakeFiles/_rocketSim.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_rocketSim.dir/build.make CMakeFiles/_rocketSim.dir/clean
+.PHONY : CMakeFiles/_rocketSim.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

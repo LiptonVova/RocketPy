@@ -4,7 +4,7 @@
 
 namespace py = pybind11;
 
-PYBIND11_MODULE(rocket_core, m) {
+PYBIND11_MODULE(_rocketSim, m) {
     //globals
     m.attr("dragCd") = dragCd;
     m.attr("Xarea") = Xarea;

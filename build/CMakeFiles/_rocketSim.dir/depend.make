@@ -1,2 +1,2 @@
-# Empty dependencies file for rocket_core.
+# Empty dependencies file for _rocketSim.
 # This may be replaced when dependencies are built.
