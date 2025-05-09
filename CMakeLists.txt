@@ -1,21 +1,19 @@
 cmake_minimum_required(VERSION 3.15)
 project(PyRocketSim)
 
-# Явно указываем путь к pybind11 через переменную окружения
-if(DEFINED ENV{pybind11_DIR})
-    set(pybind11_DIR $ENV{pybind11_DIR})
-endif()
+# Явно указываем пути к Python
+set(Python3_FIND_STRATEGY LOCATION)
+set(Python3_ROOT_DIR "/opt/python/cp36-cp36m")
+set(Python3_EXECUTABLE "/opt/python/cp36-cp36m/bin/python")
+set(Python3_INCLUDE_DIR "/opt/python/cp36-cp36m/include/python3.6m")
+set(Python3_LIBRARY "/opt/python/cp36-cp36m/lib/libpython3.6m.so")
 
-if(DEFINED ENV{Python3_ROOT_DIR})
-    set(Python3_ROOT_DIR $ENV{Python3_ROOT_DIR})
-endif()
-find_package(Python3 REQUIRED COMPONENTS Interpreter Development)
-
-# find_package(Python 3.10 REQUIRED COMPONENTS Interpreter Development Development.Module Development.Embed)
+find_package(Python3 3.6 REQUIRED COMPONENTS Interpreter Development Development.Module Development.Embed)
 find_package(pybind11 REQUIRED)
 
-# find_package(Python REQUIRED COMPONENTS Interpreter Development)
-# find_package(pybind11 REQUIRED)
+message(STATUS "Python3_EXECUTABLE: ${Python3_EXECUTABLE}")
+message(STATUS "Python3_INCLUDE_DIRS: ${Python3_INCLUDE_DIRS}")
+message(STATUS "Python3_LIBRARIES: ${Python3_LIBRARIES}")
 
 pybind11_add_module(_rocketSim
     src/wrapper.cpp
@@ -23,12 +21,9 @@ pybind11_add_module(_rocketSim
 )
 
 target_include_directories(_rocketSim PRIVATE
-    ${Python_INCLUDE_DIRS}
+    ${Python3_INCLUDE_DIRS}
     ${pybind11_INCLUDE_DIRS}
 )
-
-# target_include_directories(_rocketSim PRIVATE ${pybind11_INCLUDE_DIRS})
-target_compile_features(_rocketSim PRIVATE cxx_std_17)
 
 set_target_properties(_rocketSim PROPERTIES
     LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}

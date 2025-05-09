@@ -9,10 +9,17 @@ class CMakeBuildExt(build_ext):
     def build_extension(self, ext):
         extdir = os.path.abspath(os.path.dirname(self.get_ext_fullpath(ext.name)))
         
+        # Получаем путь к Python из текущего окружения
+        python_exec = sys.executable
+        python_include = subprocess.check_output(
+            [python_exec, "-c", "import sysconfig; print(sysconfig.get_path('include'))"]
+        ).decode().strip()
+        
         cmake_args = [
             f"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY={extdir}",
-            f"-DPython3_EXECUTABLE={sys.executable}",
-            f"-DPYTHON_EXECUTABLE={sys.executable}",
+            f"-DPython3_EXECUTABLE={python_exec}",
+            f"-DPython3_INCLUDE_DIR={python_include}",
+            f"-DPYTHON_EXECUTABLE={python_exec}",
             f"-Dpybind11_DIR={pybind11.get_cmake_dir()}",
             "-DCMAKE_BUILD_TYPE=Release"
         ]
