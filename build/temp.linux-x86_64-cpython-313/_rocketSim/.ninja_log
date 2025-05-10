@@ -1,0 +1,4 @@
+# ninja log v5
+1	529	1746880134644097771	CMakeFiles/_rocketSim.dir/src/simcalc/calc.cpp.o	ca50a1438c6a5b53
+1	2904	1746880137010638064	CMakeFiles/_rocketSim.dir/src/wrapper.cpp.o	20e62d2c05e0284
+2904	5627	1746880139742019982	/home/vova_rybin/RocketPy/PyRocketSim/_rocketSim.cpython-313-x86_64-linux-gnu.so	d731b5f77ae44f7d

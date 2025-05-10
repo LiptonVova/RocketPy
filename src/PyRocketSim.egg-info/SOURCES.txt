@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/PyRocketSim.egg-info/PKG-INFO
+src/PyRocketSim.egg-info/SOURCES.txt
+src/PyRocketSim.egg-info/dependency_links.txt
+src/PyRocketSim.egg-info/not-zip-safe
+src/PyRocketSim.egg-info/requires.txt
+src/PyRocketSim.egg-info/top_level.txt

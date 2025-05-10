@@ -4,16 +4,16 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Linux - 5.15.167.4-microsoft-standard-WSL2 - x86_64
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -28,14 +28,14 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/vova_rybin/RocketPy/build/CMakeFiles/3.28.3/CompilerIdC/a.out
+        /home/vova_rybin/RocketPy/build/CMakeFiles/4.0.2/CompilerIdC/a.out
       
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -50,34 +50,34 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/vova_rybin/RocketPy/build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+        /home/vova_rybin/RocketPy/build/CMakeFiles/4.0.2/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-f2dUmq"
-      binary: "/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-f2dUmq"
+      source: "/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-Pyyd6V"
+      binary: "/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-Pyyd6V"
     cmakeVariables:
-      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include"
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -isystem /home/vova_rybin/anaconda3/envs/Rocket/include"
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vova_rybin/anaconda3/envs/Rocket/lib -Wl,-rpath-link,/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/lib"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-f2dUmq'
+        Change Dir: '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-Pyyd6V'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8761e/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_8761e.dir/build.make CMakeFiles/cmTC_8761e.dir/build
-        gmake[1]: Entering directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-f2dUmq'
-        Building C object CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.o
-        /home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include    -v -o CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c0ded/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c0ded.dir/build.make CMakeFiles/cmTC_c0ded.dir/build
+        gmake[1]: Entering directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-Pyyd6V'
+        Building C object CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o
+        /home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -isystem /home/vova_rybin/anaconda3/envs/Rocket/include    -v -o CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o -c /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCCompilerABI.c
         Reading specs from /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs
         could not find specs file conda.specs
         COLLECT_GCC=/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-cc
@@ -86,10 +86,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.3.0 (conda-forge gcc 13.3.0-2) 
-        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_8761e.dir/'
-         /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1 -quiet -v -iprefix /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/vova_rybin/anaconda3/envs/Rocket/include /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8761e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
-         /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.o
-        GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_c0ded.dir/'
+         /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1 -quiet -v -iprefix /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/vova_rybin/anaconda3/envs/Rocket/include /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c0ded.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o /tmp/cco5JcZ9.s
         GNU C17 (conda-forge gcc 13.3.0-2) version 13.3.0 (x86_64-conda-linux-gnu)
         	compiled by GNU C version 14.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -107,12 +105,14 @@ events:
          /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
         End of search list.
         Compiler executable checksum: 22db4d4c393de085038a31a0c800173d
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_c0ded.dir/'
+         /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o /tmp/cco5JcZ9.s
+        GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43
         COMPILER_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/
         LIBRARY_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
-        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_8761e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8761e.dir/link.txt --verbose=1
-        /home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vova_rybin/anaconda3/envs/Rocket/lib -Wl,-rpath-link,/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/lib -v CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.o -o cmTC_8761e 
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_c0ded
+        /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0ded.dir/link.txt --verbose=1
         Reading specs from /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs
         could not find specs file conda.specs
         COLLECT_GCC=/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-cc
@@ -124,17 +124,21 @@ events:
         gcc version 13.3.0 (conda-forge gcc 13.3.0-2) 
         COMPILER_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/
         LIBRARY_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
-        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-L/home/vova_rybin/anaconda3/envs/Rocket/lib' '-v' '-o' 'cmTC_8761e' '-dumpdir' 'cmTC_8761e.'
-         /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZCf6FG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8761e /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib -rpath-link /home/vova_rybin/anaconda3/envs/Rocket/lib CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib
-        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-L/home/vova_rybin/anaconda3/envs/Rocket/lib' '-v' '-o' 'cmTC_8761e' '-dumpdir' 'cmTC_8761e.'
-        gmake[1]: Leaving directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-f2dUmq'
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-L/home/vova_rybin/anaconda3/envs/Rocket/lib' '-v' '-o' 'cmTC_c0ded' '-dumpdir' 'cmTC_c0ded.'
+         /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXLiCT8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c0ded /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib -rpath-link /home/vova_rybin/anaconda3/envs/Rocket/lib -v CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib
+        collect2 version 13.3.0
+        /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXLiCT8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c0ded /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib -rpath-link /home/vova_rybin/anaconda3/envs/Rocket/lib -v CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib
+        GNU ld (GNU Binutils) 2.43
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-L/home/vova_rybin/anaconda3/envs/Rocket/lib' '-v' '-o' 'cmTC_c0ded' '-dumpdir' 'cmTC_c0ded.'
+        /home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -isystem /home/vova_rybin/anaconda3/envs/Rocket/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vova_rybin/anaconda3/envs/Rocket/lib -Wl,-rpath-link,/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/lib -v -Wl,-v CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o -o cmTC_c0ded
+        gmake[1]: Leaving directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-Pyyd6V'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
@@ -155,19 +159,20 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
-      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-f2dUmq']
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-Pyyd6V']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8761e/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_8761e.dir/build.make CMakeFiles/cmTC_8761e.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-f2dUmq']
-        ignore line: [Building C object CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include    -v -o CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c0ded/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_c0ded.dir/build.make CMakeFiles/cmTC_c0ded.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-Pyyd6V']
+        ignore line: [Building C object CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -isystem /home/vova_rybin/anaconda3/envs/Rocket/include    -v -o CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o -c /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCCompilerABI.c]
         ignore line: [Reading specs from /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs]
         ignore line: [could not find specs file conda.specs]
         ignore line: [COLLECT_GCC=/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-cc]
@@ -176,10 +181,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.3.0 (conda-forge gcc 13.3.0-2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_8761e.dir/']
-        ignore line: [ /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1 -quiet -v -iprefix /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/vova_rybin/anaconda3/envs/Rocket/include /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8761e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
-        ignore line: [ /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.o]
-        ignore line: [GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_c0ded.dir/']
+        ignore line: [ /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1 -quiet -v -iprefix /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/vova_rybin/anaconda3/envs/Rocket/include /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c0ded.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o /tmp/cco5JcZ9.s]
         ignore line: [GNU C17 (conda-forge gcc 13.3.0-2) version 13.3.0 (x86_64-conda-linux-gnu)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -197,12 +200,14 @@ events:
         ignore line: [ /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 22db4d4c393de085038a31a0c800173d]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_c0ded.dir/']
+        ignore line: [ /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o /tmp/cco5JcZ9.s]
+        ignore line: [GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43]
         ignore line: [COMPILER_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/]
         ignore line: [LIBRARY_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_8761e]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8761e.dir/link.txt --verbose=1]
-        ignore line: [/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib -Wl -rpath-link /home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/lib -v CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.o -o cmTC_8761e ]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_c0ded]
+        ignore line: [/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0ded.dir/link.txt --verbose=1]
         ignore line: [Reading specs from /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs]
         ignore line: [could not find specs file conda.specs]
         ignore line: [COLLECT_GCC=/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-cc]
@@ -214,13 +219,13 @@ events:
         ignore line: [gcc version 13.3.0 (conda-forge gcc 13.3.0-2) ]
         ignore line: [COMPILER_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/]
         ignore line: [LIBRARY_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-L/home/vova_rybin/anaconda3/envs/Rocket/lib' '-v' '-o' 'cmTC_8761e' '-dumpdir' 'cmTC_8761e.']
-        link line: [ /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZCf6FG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8761e /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib -rpath-link /home/vova_rybin/anaconda3/envs/Rocket/lib CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-L/home/vova_rybin/anaconda3/envs/Rocket/lib' '-v' '-o' 'cmTC_c0ded' '-dumpdir' 'cmTC_c0ded.']
+        link line: [ /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXLiCT8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c0ded /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib -rpath-link /home/vova_rybin/anaconda3/envs/Rocket/lib -v CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib]
           arg [/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccZCf6FG.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccXLiCT8.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -234,7 +239,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_8761e] ==> ignore
+          arg [cmTC_c0ded] ==> ignore
           arg [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
           arg [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
           arg [/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o] ==> obj [/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o]
@@ -261,7 +266,8 @@ events:
           arg [/home/vova_rybin/anaconda3/envs/Rocket/lib] ==> ignore
           arg [-rpath-link] ==> ignore
           arg [/home/vova_rybin/anaconda3/envs/Rocket/lib] ==> ignore
-          arg [CMakeFiles/cmTC_8761e.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -277,6 +283,9 @@ events:
           arg [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
           arg [-rpath] ==> ignore
           arg [/home/vova_rybin/anaconda3/envs/Rocket/lib] ==> ignore
+        ignore line: [collect2 version 13.3.0]
+        ignore line: [/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXLiCT8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c0ded /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib -rpath-link /home/vova_rybin/anaconda3/envs/Rocket/lib -v CMakeFiles/cmTC_c0ded.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib]
+        linker tool for 'C': /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld
         collapse obj [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/vova_rybin/anaconda3/envs/Rocket/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
         collapse obj [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/vova_rybin/anaconda3/envs/Rocket/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
         collapse obj [/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o] ==> [/home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o]
@@ -300,31 +309,42 @@ events:
       
       
   -
+    kind: "message-v1"
+    backtrace:
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.43
+  -
     kind: "try_compile-v1"
     backtrace:
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-vioy8X"
-      binary: "/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-vioy8X"
+      source: "/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-McmKNn"
+      binary: "/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-McmKNn"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include"
+      CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -isystem /home/vova_rybin/anaconda3/envs/Rocket/include"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vova_rybin/anaconda3/envs/Rocket/lib -Wl,-rpath-link,/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/lib"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-vioy8X'
+        Change Dir: '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-McmKNn'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ccf80/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ccf80.dir/build.make CMakeFiles/cmTC_ccf80.dir/build
-        gmake[1]: Entering directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-vioy8X'
-        Building CXX object CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.o
-        /home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include    -v -o CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_80fc4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_80fc4.dir/build.make CMakeFiles/cmTC_80fc4.dir/build
+        gmake[1]: Entering directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-McmKNn'
+        Building CXX object CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o
+        /home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -isystem /home/vova_rybin/anaconda3/envs/Rocket/include    -v -o CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o -c /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp
         Reading specs from /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs
         could not find specs file conda.specs
         COLLECT_GCC=/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++
@@ -333,10 +353,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.3.0 (conda-forge gcc 13.3.0-2) 
-        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_ccf80.dir/'
-         /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1plus -quiet -v -iprefix /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/vova_rybin/anaconda3/envs/Rocket/include /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ccf80.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
-         /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.o
-        GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_80fc4.dir/'
+         /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1plus -quiet -v -iprefix /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/vova_rybin/anaconda3/envs/Rocket/include /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_80fc4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o /tmp/ccsJL5u0.s
         GNU C++17 (conda-forge gcc 13.3.0-2) version 13.3.0 (x86_64-conda-linux-gnu)
         	compiled by GNU C version 14.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -360,12 +378,14 @@ events:
          /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
         End of search list.
         Compiler executable checksum: d087570e6c007cf08e494b8046e3695a
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_80fc4.dir/'
+         /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccsJL5u0.s
+        GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43
         COMPILER_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/
         LIBRARY_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
-        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_ccf80
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccf80.dir/link.txt --verbose=1
-        /home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vova_rybin/anaconda3/envs/Rocket/lib -Wl,-rpath-link,/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/lib -v CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ccf80 
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_80fc4
+        /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80fc4.dir/link.txt --verbose=1
         Reading specs from /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs
         could not find specs file conda.specs
         COLLECT_GCC=/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++
@@ -377,17 +397,21 @@ events:
         gcc version 13.3.0 (conda-forge gcc 13.3.0-2) 
         COMPILER_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/
         LIBRARY_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
-        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-L/home/vova_rybin/anaconda3/envs/Rocket/lib' '-v' '-o' 'cmTC_ccf80' '-shared-libgcc' '-dumpdir' 'cmTC_ccf80.'
-         /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ3Lwym.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ccf80 /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib -rpath-link /home/vova_rybin/anaconda3/envs/Rocket/lib CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib
-        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-L/home/vova_rybin/anaconda3/envs/Rocket/lib' '-v' '-o' 'cmTC_ccf80' '-shared-libgcc' '-dumpdir' 'cmTC_ccf80.'
-        gmake[1]: Leaving directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-vioy8X'
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-L/home/vova_rybin/anaconda3/envs/Rocket/lib' '-v' '-o' 'cmTC_80fc4' '-shared-libgcc' '-dumpdir' 'cmTC_80fc4.'
+         /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccINrCQM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_80fc4 /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib -rpath-link /home/vova_rybin/anaconda3/envs/Rocket/lib -v CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib
+        collect2 version 13.3.0
+        /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccINrCQM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_80fc4 /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib -rpath-link /home/vova_rybin/anaconda3/envs/Rocket/lib -v CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib
+        GNU ld (GNU Binutils) 2.43
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-L/home/vova_rybin/anaconda3/envs/Rocket/lib' '-v' '-o' 'cmTC_80fc4' '-shared-libgcc' '-dumpdir' 'cmTC_80fc4.'
+        /home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -isystem /home/vova_rybin/anaconda3/envs/Rocket/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vova_rybin/anaconda3/envs/Rocket/lib -Wl,-rpath-link,/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/lib -v -Wl,-v CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_80fc4
+        gmake[1]: Leaving directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-McmKNn'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
@@ -414,19 +438,20 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
-      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-vioy8X']
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-McmKNn']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ccf80/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ccf80.dir/build.make CMakeFiles/cmTC_ccf80.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-vioy8X']
-        ignore line: [Building CXX object CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include    -v -o CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_80fc4/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_80fc4.dir/build.make CMakeFiles/cmTC_80fc4.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-McmKNn']
+        ignore line: [Building CXX object CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -isystem /home/vova_rybin/anaconda3/envs/Rocket/include    -v -o CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o -c /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Reading specs from /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs]
         ignore line: [could not find specs file conda.specs]
         ignore line: [COLLECT_GCC=/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++]
@@ -435,10 +460,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.3.0 (conda-forge gcc 13.3.0-2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_ccf80.dir/']
-        ignore line: [ /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1plus -quiet -v -iprefix /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/vova_rybin/anaconda3/envs/Rocket/include /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ccf80.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
-        ignore line: [ /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_80fc4.dir/']
+        ignore line: [ /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1plus -quiet -v -iprefix /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/vova_rybin/anaconda3/envs/Rocket/include /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_80fc4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o /tmp/ccsJL5u0.s]
         ignore line: [GNU C++17 (conda-forge gcc 13.3.0-2) version 13.3.0 (x86_64-conda-linux-gnu)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -462,12 +485,14 @@ events:
         ignore line: [ /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: d087570e6c007cf08e494b8046e3695a]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_80fc4.dir/']
+        ignore line: [ /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccsJL5u0.s]
+        ignore line: [GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43]
         ignore line: [COMPILER_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/]
         ignore line: [LIBRARY_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_ccf80]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccf80.dir/link.txt --verbose=1]
-        ignore line: [/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib -Wl -rpath-link /home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/lib -v CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ccf80 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-v' '-o' 'CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_80fc4]
+        ignore line: [/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80fc4.dir/link.txt --verbose=1]
         ignore line: [Reading specs from /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs]
         ignore line: [could not find specs file conda.specs]
         ignore line: [COLLECT_GCC=/home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++]
@@ -479,13 +504,13 @@ events:
         ignore line: [gcc version 13.3.0 (conda-forge gcc 13.3.0-2) ]
         ignore line: [COMPILER_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/]
         ignore line: [LIBRARY_PATH=/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-L/home/vova_rybin/anaconda3/envs/Rocket/lib' '-v' '-o' 'cmTC_ccf80' '-shared-libgcc' '-dumpdir' 'cmTC_ccf80.']
-        link line: [ /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ3Lwym.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ccf80 /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib -rpath-link /home/vova_rybin/anaconda3/envs/Rocket/lib CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/vova_rybin/anaconda3/envs/Rocket/include' '-L/home/vova_rybin/anaconda3/envs/Rocket/lib' '-v' '-o' 'cmTC_80fc4' '-shared-libgcc' '-dumpdir' 'cmTC_80fc4.']
+        link line: [ /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccINrCQM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_80fc4 /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib -rpath-link /home/vova_rybin/anaconda3/envs/Rocket/lib -v CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib]
           arg [/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccJ3Lwym.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccINrCQM.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -499,7 +524,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_ccf80] ==> ignore
+          arg [cmTC_80fc4] ==> ignore
           arg [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
           arg [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
           arg [/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o] ==> obj [/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o]
@@ -526,7 +551,8 @@ events:
           arg [/home/vova_rybin/anaconda3/envs/Rocket/lib] ==> ignore
           arg [-rpath-link] ==> ignore
           arg [/home/vova_rybin/anaconda3/envs/Rocket/lib] ==> ignore
-          arg [CMakeFiles/cmTC_ccf80.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -538,6 +564,9 @@ events:
           arg [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
           arg [-rpath] ==> ignore
           arg [/home/vova_rybin/anaconda3/envs/Rocket/lib] ==> ignore
+        ignore line: [collect2 version 13.3.0]
+        ignore line: [/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/vova_rybin/anaconda3/envs/Rocket/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccINrCQM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_80fc4 /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib -rpath-link /home/vova_rybin/anaconda3/envs/Rocket/lib -v CMakeFiles/cmTC_80fc4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/vova_rybin/anaconda3/envs/Rocket/lib]
+        linker tool for 'CXX': /home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld
         collapse obj [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/vova_rybin/anaconda3/envs/Rocket/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
         collapse obj [/home/vova_rybin/anaconda3/envs/Rocket/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/vova_rybin/anaconda3/envs/Rocket/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
         collapse obj [/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o] ==> [/home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o]
@@ -561,21 +590,30 @@ events:
       
       
   -
+    kind: "message-v1"
+    backtrace:
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/home/vova_rybin/anaconda3/envs/Rocket/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.43
+  -
     kind: "try_compile-v1"
     backtrace:
-      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:323 (check_cxx_compiler_flag)"
-      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:368 (_pybind11_return_if_cxx_and_linker_flags_work)"
-      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:435 (_pybind11_generate_lto)"
-      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:250 (include)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "pybind11/tools/pybind11Common.cmake:316 (check_cxx_compiler_flag)"
+      - "pybind11/tools/pybind11Common.cmake:361 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "pybind11/tools/pybind11Common.cmake:417 (_pybind11_generate_lto)"
+      - "pybind11/CMakeLists.txt:238 (include)"
     checks:
       - "Performing Test HAS_FLTO"
     directories:
-      source: "/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-GZTTe3"
-      binary: "/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-GZTTe3"
+      source: "/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-NeRJK1"
+      binary: "/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-NeRJK1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -584,17 +622,17 @@ events:
       variable: "HAS_FLTO"
       cached: true
       stdout: |
-        Change Dir: '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-GZTTe3'
+        Change Dir: '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-NeRJK1'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_277bb/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_277bb.dir/build.make CMakeFiles/cmTC_277bb.dir/build
-        gmake[1]: Entering directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-GZTTe3'
-        Building CXX object CMakeFiles/cmTC_277bb.dir/src.cxx.o
-        /home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++ -DHAS_FLTO  -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include    -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_277bb.dir/src.cxx.o -c /home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-GZTTe3/src.cxx
-        Linking CXX executable cmTC_277bb
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_277bb.dir/link.txt --verbose=1
-        /home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vova_rybin/anaconda3/envs/Rocket/lib -Wl,-rpath-link,/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/lib  CMakeFiles/cmTC_277bb.dir/src.cxx.o -o cmTC_277bb  -flto 
-        gmake[1]: Leaving directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-GZTTe3'
+        Run Build Command(s): /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_49ad2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_49ad2.dir/build.make CMakeFiles/cmTC_49ad2.dir/build
+        gmake[1]: Entering directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-NeRJK1'
+        Building CXX object CMakeFiles/cmTC_49ad2.dir/src.cxx.o
+        /home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++ -DHAS_FLTO  -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include    -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_49ad2.dir/src.cxx.o -c /home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-NeRJK1/src.cxx
+        Linking CXX executable cmTC_49ad2
+        /home/vova_rybin/anaconda3/envs/Rocket/lib/python3.13/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49ad2.dir/link.txt --verbose=1
+        /home/vova_rybin/anaconda3/envs/Rocket/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vova_rybin/anaconda3/envs/Rocket/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vova_rybin/anaconda3/envs/Rocket/lib -Wl,-rpath-link,/home/vova_rybin/anaconda3/envs/Rocket/lib -L/home/vova_rybin/anaconda3/envs/Rocket/lib CMakeFiles/cmTC_49ad2.dir/src.cxx.o -o cmTC_49ad2  -flto
+        gmake[1]: Leaving directory '/home/vova_rybin/RocketPy/build/CMakeFiles/CMakeScratch/TryCompile-NeRJK1'
         
       exitCode: 0
 ...

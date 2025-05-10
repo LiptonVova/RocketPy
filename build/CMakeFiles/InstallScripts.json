@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/vova_rybin/RocketPy/build/cmake_install.cmake",
+		"/home/vova_rybin/RocketPy/build/pybind11/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
