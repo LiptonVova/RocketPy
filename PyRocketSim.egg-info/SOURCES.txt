@@ -2,7 +2,6 @@ README.md
 pyproject.toml
 setup.py
 PyRocketSim/__init__.py
-PyRocketSim/_rocketSim.so
 PyRocketSim/test.py
 PyRocketSim/visualization.py
 PyRocketSim.egg-info/PKG-INFO

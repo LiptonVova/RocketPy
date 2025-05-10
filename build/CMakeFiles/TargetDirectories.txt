@@ -1,3 +1,5 @@
 /home/vova_rybin/RocketPy/build/CMakeFiles/_rocketSim.dir
 /home/vova_rybin/RocketPy/build/CMakeFiles/edit_cache.dir
 /home/vova_rybin/RocketPy/build/CMakeFiles/rebuild_cache.dir
+/home/vova_rybin/RocketPy/build/pybind11/CMakeFiles/edit_cache.dir
+/home/vova_rybin/RocketPy/build/pybind11/CMakeFiles/rebuild_cache.dir

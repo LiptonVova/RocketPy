@@ -1,0 +1,7 @@
+_rocketSim
+cpress
+data
+simcalc
+spec
+thrustcurve
+vroot

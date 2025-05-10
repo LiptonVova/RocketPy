@@ -1,10 +1,11 @@
 CMakeFiles/_rocketSim.dir/src/wrapper.cpp.o: \
  /home/vova_rybin/RocketPy/src/wrapper.cpp \
  /home/vova_rybin/anaconda3/envs/Rocket/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/pybind11.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/detail/class.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/attr.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/detail/common.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/pybind11.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/class.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/attr.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/common.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/conduit/wrap_include_python_h.h \
  /home/vova_rybin/anaconda3/envs/Rocket/include/python3.13/Python.h \
  /home/vova_rybin/anaconda3/envs/Rocket/include/python3.13/patchlevel.h \
  /home/vova_rybin/anaconda3/envs/Rocket/include/python3.13/pyconfig.h \
@@ -253,6 +254,7 @@ CMakeFiles/_rocketSim.dir/src/wrapper.cpp.o: \
  /home/vova_rybin/anaconda3/envs/Rocket/include/python3.13/frameobject.h \
  /home/vova_rybin/anaconda3/envs/Rocket/include/python3.13/cpython/frameobject.h \
  /home/vova_rybin/anaconda3/envs/Rocket/include/python3.13/pythread.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/pybind11_namespace_macros.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/cstddef \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/cstring \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/exception \
@@ -374,18 +376,20 @@ CMakeFiles/_rocketSim.dir/src/wrapper.cpp.o: \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/stl_bvector.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/vector.tcc \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/version \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/cast.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/detail/descr.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/detail/type_caster_base.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/pytypes.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/buffer_info.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/cast.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/descr.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/native_enum_data.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/pytypes.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/buffer_info.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/iterator \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/stream_iterator.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/utility \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/stl_relops.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/optional \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/detail/cpp_conduit.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/detail/internals.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/internals.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/conduit/pybind11_platform_abi_id.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/gil_simple.h \
+ /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/cassert \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/mutex \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/chrono.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/ratio \
@@ -403,31 +407,48 @@ CMakeFiles/_rocketSim.dir/src/wrapper.cpp.o: \
  /home/vova_rybin/anaconda3/envs/Rocket/x86_64-conda-linux-gnu/sysroot/usr/include/sys/time.h \
  /home/vova_rybin/anaconda3/envs/Rocket/x86_64-conda-linux-gnu/sysroot/usr/include/semaphore.h \
  /home/vova_rybin/anaconda3/envs/Rocket/x86_64-conda-linux-gnu/sysroot/usr/include/bits/semaphore.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/detail/typeid.h \
- /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/cxxabi.h \
- /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu/bits/cxxabi_tweaks.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/detail/value_and_holder.h \
- /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/array \
+ /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/sstream \
+ /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/istream \
+ /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/istream.tcc \
+ /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/sstream.tcc \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/type_caster_base.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/gil.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/trampoline_self_life_support.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/using_smart_holder.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/struct_smart_holder.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/functional \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/std_function.h \
+ /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/array \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/stl_algo.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/algorithmfwd.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/stl_heap.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/uniform_int_dist.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/options.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/detail/exception_translation.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/detail/init.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/gil.h \
- /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/cassert \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/gil_safe_call_once.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/typing.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/value_and_holder.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/cpp_conduit.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/dynamic_raw_ptr_cast_if_possible.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/typeid.h \
+ /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/cxxabi.h \
+ /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu/bits/cxxabi_tweaks.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/options.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/exception_translation.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/function_record_pyobject.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/detail/init.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/gil_safe_call_once.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/typing.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/algorithm \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/ranges_algo.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/pstl/glue_algorithm_defs.h \
- /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/pybind11/include/pybind11/stl.h \
+ /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/numeric \
+ /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/stl_numeric.h \
+ /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/pstl/glue_numeric_defs.h \
+ /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/ranges \
+ /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/span \
+ /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/stack \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/deque \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/stl_deque.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/deque.tcc \
+ /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/stl_stack.h \
+ /home/vova_rybin/RocketPy/pybind11/include/pybind11/stl.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/list \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/stl_list.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/list.tcc \
@@ -451,14 +472,10 @@ CMakeFiles/_rocketSim.dir/src/wrapper.cpp.o: \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/variant \
  /home/vova_rybin/RocketPy/src/simcalc/calc.hpp \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/iostream \
- /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/istream \
- /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/istream.tcc \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/fstream \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/codecvt.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu/bits/basic_file.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu/bits/c++io.h \
  /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/fstream.tcc \
- /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/sstream \
- /home/vova_rybin/anaconda3/envs/Rocket/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/bits/sstream.tcc \
  /home/vova_rybin/RocketPy/src/cpress/cpress.hpp \
  /home/vova_rybin/RocketPy/src/cpress/loadMesh/lmesh.hpp

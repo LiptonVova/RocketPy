@@ -1,7 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/vova_rybin/RocketPy/build/temp.linux-x86_64-cpython-313/cmake_install.cmake"
+		"/home/vova_rybin/RocketPy/build/temp.linux-x86_64-cpython-313/cmake_install.cmake",
+		"/home/vova_rybin/RocketPy/build/temp.linux-x86_64-cpython-313/pybind11/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

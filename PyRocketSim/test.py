@@ -1,7 +1,6 @@
 import visualization
 from . import _rocketSim
 
-
 dfinal = _rocketSim.fvec()
 rp1 = _rocketSim.prock()
 rf1 = _rocketSim.frock()

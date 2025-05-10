@@ -1,5 +1,5 @@
 # import visualization
-# from . import PyRocketSim
+# from . import _rocketSim
 import PyRocketSim
 
 

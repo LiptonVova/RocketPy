@@ -45,10 +45,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/cmake/data/bin/cmake
+CMAKE_COMMAND = /tmp/build-env-j58609zb/lib/python3.13/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /tmp/build-env-3wyvk56b/lib/python3.13/site-packages/cmake/data/bin/cmake -E rm -f
+RM = /tmp/build-env-j58609zb/lib/python3.13/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -64,19 +64,41 @@ CMAKE_BINARY_DIR = /home/vova_rybin/RocketPy/build/temp.linux-x86_64-cpython-313
 
 # The main recursive "all" target.
 all: CMakeFiles/_rocketSim.dir/all
+all: pybind11/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/_rocketSim.dir/codegen
+codegen: pybind11/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: pybind11/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/_rocketSim.dir/clean
+clean: pybind11/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory pybind11
+
+# Recursive "all" directory target.
+pybind11/all:
+.PHONY : pybind11/all
+
+# Recursive "codegen" directory target.
+pybind11/codegen:
+.PHONY : pybind11/codegen
+
+# Recursive "preinstall" directory target.
+pybind11/preinstall:
+.PHONY : pybind11/preinstall
+
+# Recursive "clean" directory target.
+pybind11/clean:
+.PHONY : pybind11/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/_rocketSim.dir
