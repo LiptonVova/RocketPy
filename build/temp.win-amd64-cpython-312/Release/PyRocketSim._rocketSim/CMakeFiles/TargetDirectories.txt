@@ -1,0 +1,4 @@
+C:/Users/rvova/Study/RocketPy/build/temp.win-amd64-cpython-312/Release/PyRocketSim._rocketSim/CMakeFiles/_rocketSim.dir
+C:/Users/rvova/Study/RocketPy/build/temp.win-amd64-cpython-312/Release/PyRocketSim._rocketSim/CMakeFiles/ALL_BUILD.dir
+C:/Users/rvova/Study/RocketPy/build/temp.win-amd64-cpython-312/Release/PyRocketSim._rocketSim/CMakeFiles/ZERO_CHECK.dir
+C:/Users/rvova/Study/RocketPy/build/temp.win-amd64-cpython-312/Release/PyRocketSim._rocketSim/pybind11/CMakeFiles/ALL_BUILD.dir

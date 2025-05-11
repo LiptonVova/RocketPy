@@ -8,8 +8,8 @@
 #include <sstream>
 #include <math.h> 
 #include "TApplication.h"
-#include "simcalc/calc.hpp"
-#include "vroot/root.hpp"
+#include "simcalc\calc.hpp"
+#include "vroot\root.hpp"
 #include <thread>
 
 //g++ rocketSIM.cpp calc.cpp -Wall -o2 -o test1 `root-config --cflags --glibs` -std=c++0x -pthread
@@ -35,8 +35,8 @@ float delay = 7.0;
 // initialize(rp1, rf1,"spec/Frenzy_J.txt");
 // use_thrustCurve("spec/L935.txt");
 
-initialize(rp1, rf1, "spec/Arachnid_D12-7.txt");
-use_thrustCurve("spec/Payloader_D12-7.txt");
+initialize(rp1, rf1, "spec\Arachnid_D12-7.txt");
+use_thrustCurve("spec\Payloader_D12-7.txt");
 btime = get_btime();
 int ind = 0;
 
@@ -94,8 +94,6 @@ if(dfinal.v.size() > 0)
 	draw_graph(dfinal, index1, index2);
 	theApp.Run();
 }
-
-
 
 //end
 }

@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from . import _rocketSim
+from .Release import _rocketSim
 
 def draw(dfinal: _rocketSim.fvec , index1: int, index2: int) -> None:
     fig1, ax1 = plt.subplots()
@@ -7,7 +7,8 @@ def draw(dfinal: _rocketSim.fvec , index1: int, index2: int) -> None:
     
     gr1_x = [] 
     gr1_y = []
-    
+   
+
     if (index1 > 0):
         for i in range(index1):
             temp = dfinal.d[i]
@@ -19,6 +20,7 @@ def draw(dfinal: _rocketSim.fvec , index1: int, index2: int) -> None:
     gr12_x = []
     gr12_y = []
     
+
     if (index2 > 0):
         for i in range(index1, index2):
             temp = dfinal.d[i]
@@ -29,6 +31,8 @@ def draw(dfinal: _rocketSim.fvec , index1: int, index2: int) -> None:
     
     gr13_x = []
     gr13_y = []
+
+
     for i in range(index2, len(dfinal.d)):
         temp = dfinal.d[i]
         x = temp.x
@@ -38,6 +42,8 @@ def draw(dfinal: _rocketSim.fvec , index1: int, index2: int) -> None:
         
     gr_x = []
     gr_y = []
+
+
     for i in range(len(dfinal.d)):
         temp = dfinal.d[i]
         x = temp.x
@@ -58,6 +64,7 @@ def draw(dfinal: _rocketSim.fvec , index1: int, index2: int) -> None:
     
     gr4_x = []
     gr4_y = []
+
     
     for i in range(len(dfinal.v)):
         temp = dfinal.v[i]
