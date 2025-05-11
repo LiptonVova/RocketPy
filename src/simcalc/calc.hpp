@@ -14,9 +14,12 @@
 #include <thread>
 #include <stdio.h>
 #include <iterator>
-#include <sys\stat.h>
-//#include <windows.h>
-#include "..\cpress\cpress.hpp"
+// #include <sys\stat.h>
+// //#include <windows.h>
+// #include "..\cpress\cpress.hpp"
+
+#include <sys/stat.h>
+#include "../cpress/cpress.hpp"
 
 using namespace std;
 

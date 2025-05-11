@@ -19,12 +19,7 @@
 #include <sys/stat.h>
 //#include <windows.h>
 
-
-
 #include <cstring>
-
-
-
 
 using namespace std;
 

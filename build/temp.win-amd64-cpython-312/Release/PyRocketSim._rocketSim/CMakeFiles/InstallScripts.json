@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Users/rvova/Study/RocketPy/build/temp.win-amd64-cpython-312/Release/PyRocketSim._rocketSim/cmake_install.cmake",
-		"C:/Users/rvova/Study/RocketPy/build/temp.win-amd64-cpython-312/Release/PyRocketSim._rocketSim/pybind11/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

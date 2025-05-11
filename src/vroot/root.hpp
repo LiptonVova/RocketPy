@@ -39,7 +39,7 @@
 #include <iterator>
 #include <sys/stat.h>
 //#include <windows.h>
-#include "..\simcalc\calc.hpp"
+#include "../simcalc/calc.hpp"
 
 
 using namespace std;

@@ -45,9 +45,6 @@ class CMakeBuild(build_ext):
             ]
             build_args += ["--config", cfg]
             
-            # For MSVC multi-process build
-            # if "CMAKE_BUILD_PARALLEL_LEVEL" not in os.environ:
-            #    build_args += ["/m"]
 
         # Handle additional CMake arguments
         if "CMAKE_ARGS" in os.environ:
@@ -78,6 +75,6 @@ setup(
     ext_modules=[CMakeExtension("PyRocketSim._rocketSim")],
     cmdclass={"build_ext": CMakeBuild},
     zip_safe=False,
-    install_requires=["matplotlib"],
+    install_requires=["matplotlib", "numpy"],
     python_requires=">=3.7",
 )

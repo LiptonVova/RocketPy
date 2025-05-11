@@ -18,7 +18,7 @@
 #include <iterator>
 #include <sys/stat.h>
 //#include <windows.h>
-#include "loadMesh\lmesh.hpp"
+#include "loadMesh/lmesh.hpp"
 #include <math.h> 
 
 
