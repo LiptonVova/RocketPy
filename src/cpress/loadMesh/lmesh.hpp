@@ -17,7 +17,7 @@
 #include <stdio.h>
 #include <iterator>
 #include <sys/stat.h>
-#include <windows.h>
+//#include <windows.h>
 
 
 

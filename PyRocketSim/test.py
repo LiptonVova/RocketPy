@@ -1,5 +1,5 @@
 import visualization
-from . import _rocketSim
+from ./Release import _rocketSim
 
 dfinal = _rocketSim.fvec()
 rp1 = _rocketSim.prock()

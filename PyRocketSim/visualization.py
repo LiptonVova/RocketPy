@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from . import _rocketSim
+from .Release import _rocketSim
 
 def draw(dfinal: _rocketSim.fvec , index1: int, index2: int) -> None:
     fig1, ax1 = plt.subplots()

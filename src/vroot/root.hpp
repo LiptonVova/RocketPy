@@ -38,8 +38,8 @@
 #include <stdio.h>
 #include <iterator>
 #include <sys/stat.h>
-#include <windows.h>
-#include "C:\Users\rvova\Study\RocketPy\src\simcalc\calc.hpp"
+//#include <windows.h>
+#include "..\simcalc\calc.hpp"
 
 
 using namespace std;

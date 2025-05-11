@@ -15,8 +15,8 @@
 #include <stdio.h>
 #include <iterator>
 #include <sys\stat.h>
-#include <windows.h>
-#include "C:\Users\rvova\Study\RocketPy\src\cpress\cpress.hpp"
+//#include <windows.h>
+#include "..\cpress\cpress.hpp"
 
 using namespace std;
 
