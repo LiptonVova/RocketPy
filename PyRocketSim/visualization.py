@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from .Release import _rocketSim
+from . import _rocketSim
 
 def draw(dfinal: _rocketSim.fvec , index1: int, index2: int) -> None:
     d_array = np.array( [ (item.x, item.y) for item in dfinal.d], dtype=np.float32)

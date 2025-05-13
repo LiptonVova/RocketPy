@@ -10,7 +10,7 @@ pybind11_add_module(_rocketSim
 
 if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
     set_target_properties(_rocketSim PROPERTIES
-        LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/PyRocketSim/Release
+        LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/PyRocketSim
         PREFIX ""
         SUFFIX ".so"
     )

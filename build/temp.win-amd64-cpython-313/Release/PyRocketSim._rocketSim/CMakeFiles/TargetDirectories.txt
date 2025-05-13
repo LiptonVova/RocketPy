@@ -1,0 +1,5 @@
+C:/Users/rvova/Study/RocketPy/build/temp.win-amd64-cpython-313/Release/PyRocketSim._rocketSim/CMakeFiles/_rocketSim.dir
+C:/Users/rvova/Study/RocketPy/build/temp.win-amd64-cpython-313/Release/PyRocketSim._rocketSim/CMakeFiles/edit_cache.dir
+C:/Users/rvova/Study/RocketPy/build/temp.win-amd64-cpython-313/Release/PyRocketSim._rocketSim/CMakeFiles/rebuild_cache.dir
+C:/Users/rvova/Study/RocketPy/build/temp.win-amd64-cpython-313/Release/PyRocketSim._rocketSim/pybind11/CMakeFiles/edit_cache.dir
+C:/Users/rvova/Study/RocketPy/build/temp.win-amd64-cpython-313/Release/PyRocketSim._rocketSim/pybind11/CMakeFiles/rebuild_cache.dir

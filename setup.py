@@ -38,12 +38,20 @@ class CMakeBuild(build_ext):
         build_args = []
         
         # Windows MSVC specific configuration
+        #if sys.platform == "win32":
+           # cmake_args += [
+            #    "-A", PLAT_TO_CMAKE[self.plat_name],
+            #    "-T", "host=x64"  # Use 64-bit toolchain
+           #]
+            #build_args += ["--config", cfg]
+
+        # Except MSVC
         if sys.platform == "win32":
             cmake_args += [
-                "-A", PLAT_TO_CMAKE[self.plat_name],
-                "-T", "host=x64"  # Use 64-bit toolchain
+                "-G", "Ninja", 
+                # "-DCMAKE_MAKE_PROGRAM=ninja", 
             ]
-            build_args += ["--config", cfg]
+            build_args += []
             
 
         # Handle additional CMake arguments
@@ -71,7 +79,7 @@ class CMakeBuild(build_ext):
 
 setup(
     name="PyRocketSim",
-    version="0.1",
+    version="0.1.2",
     ext_modules=[CMakeExtension("PyRocketSim._rocketSim")],
     cmdclass={"build_ext": CMakeBuild},
     zip_safe=False,

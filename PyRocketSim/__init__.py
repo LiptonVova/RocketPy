@@ -1,4 +1,4 @@
-from .Release._rocketSim import *
+from ._rocketSim import *
 from .visualization import *
 
 
