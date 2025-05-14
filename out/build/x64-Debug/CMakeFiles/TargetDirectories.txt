@@ -1,5 +1,0 @@
-C:/Users/rvova/Study/RocketPy/out/build/x64-Debug/CMakeFiles/_rocketSim.dir
-C:/Users/rvova/Study/RocketPy/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/rvova/Study/RocketPy/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/rvova/Study/RocketPy/out/build/x64-Debug/pybind11/CMakeFiles/edit_cache.dir
-C:/Users/rvova/Study/RocketPy/out/build/x64-Debug/pybind11/CMakeFiles/rebuild_cache.dir

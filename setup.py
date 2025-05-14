@@ -81,14 +81,14 @@ long_description = (Path(__file__).parent / "README.md").read_text(encoding="utf
 
 setup(
     name="PyRocketSim",
-    version="0.1.1",
+    version="0.2.4",
     author="Vladimir",
     description="Simulator dynamic flight rocket",
     ext_modules=[CMakeExtension("PyRocketSim._rocketSim")],
     cmdclass={"build_ext": CMakeBuild},
     zip_safe=False,
     install_requires=["matplotlib", "numpy"],
-    python_requires=">=3.7",
+    python_requires=">=3.13",
     license="MIT",
     long_description=long_description,
     long_description_content_type="text/markdown", 
