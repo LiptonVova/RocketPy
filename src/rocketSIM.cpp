@@ -8,8 +8,8 @@
 #include <sstream>
 #include <math.h> 
 #include "TApplication.h"
-#include "simcalc\calc.hpp"
-#include "vroot\root.hpp"
+#include "simcalc/calc.hpp"
+#include "vroot/root.hpp"
 #include <thread>
 
 //g++ rocketSIM.cpp calc.cpp -Wall -o2 -o test1 `root-config --cflags --glibs` -std=c++0x -pthread

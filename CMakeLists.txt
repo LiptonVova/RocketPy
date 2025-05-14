@@ -7,9 +7,3 @@ pybind11_add_module(_rocketSim
     src/wrapper.cpp 
     src/simcalc/calc.cpp
 )
-
-set_target_properties(_rocketSim PROPERTIES
-    LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/PyRocketSim
-    PREFIX ""
-    SUFFIX ".pyd"  # Äëÿ Windows
-)
