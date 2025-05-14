@@ -1,0 +1,31 @@
+% Wind:
+1.0
+
+% Btime:
+1.6
+
+% TMass:
+0.071
+
+% DragCd:
+0.75
+
+% Thrust:
+15.00
+
+% TcxArea:
+0.00554
+
+% ParArea:
+0.086
+
+% ProMass:
+0.01293
+
+% Vintx:
+0.00017
+
+% Vinty:
+0.001
+
+

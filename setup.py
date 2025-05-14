@@ -5,14 +5,6 @@ from pathlib import Path
 from setuptools import Extension, setup
 from setuptools.command.build_ext import build_ext
 
-# Windows-specific CMake configurations
-PLAT_TO_CMAKE = {
-    "win32": "Win32",
-    "win-amd64": "x64",
-    "win-arm32": "ARM",
-    "win-arm64": "ARM64",
-}
-
 class CMakeExtension(Extension):
     def __init__(self, name: str, sourcedir: str = "") -> None:
         super().__init__(name, sources=[])
@@ -37,22 +29,11 @@ class CMakeBuild(build_ext):
 
         build_args = []
         
-        # Windows MSVC specific configuration
-        #if sys.platform == "win32":
-           # cmake_args += [
-            #    "-A", PLAT_TO_CMAKE[self.plat_name],
-            #    "-T", "host=x64"  # Use 64-bit toolchain
-           #]
-            #build_args += ["--config", cfg]
-
-        # Except MSVC
         if sys.platform == "win32":
             cmake_args += [
                 "-G", "Ninja", 
-                # "-DCMAKE_MAKE_PROGRAM=ninja", 
             ]
             build_args += []
-            
 
         # Handle additional CMake arguments
         if "CMAKE_ARGS" in os.environ:
@@ -81,14 +62,16 @@ long_description = (Path(__file__).parent / "README.md").read_text(encoding="utf
 
 setup(
     name="PyRocketSim",
-    version="0.2.4",
+    version="1.0.0",
     author="Vladimir",
     description="Simulator dynamic flight rocket",
+    packages=["PyRocketSim"],
+    package_dir={"PyRocketSim": "PyRocketSim"}, 
     ext_modules=[CMakeExtension("PyRocketSim._rocketSim")],
     cmdclass={"build_ext": CMakeBuild},
     zip_safe=False,
     install_requires=["matplotlib", "numpy"],
-    python_requires=">=3.13",
+    python_requires=">=3.10",
     license="MIT",
     long_description=long_description,
     long_description_content_type="text/markdown", 

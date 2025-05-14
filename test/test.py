@@ -1,5 +1,3 @@
-# import visualization
-# from . import _rocketSim
 import PyRocketSim
 
 
@@ -10,8 +8,8 @@ rf1 = PyRocketSim.frock()
 tstep = 0.01
 delay = 7.0
 
-PyRocketSim.initialize(rp1, rf1, "src/spec/Arachnid_D12-7.txt")
-PyRocketSim.use_thrustCurve("src/spec/Payloader_D12-7.txt")
+PyRocketSim.initialize(rp1, rf1, "spec/Arachnid_D12-7.txt")
+PyRocketSim.use_thrustCurve("spec/Payloader_D12-7.txt")
 
 btime = PyRocketSim.get_btime()
 ind = 0

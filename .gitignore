@@ -33,3 +33,7 @@
 
 .vscode
 .vs
+
+build
+dist
+PyRocketSim.egg-info

@@ -1,7 +1,8 @@
 graft pybind11/include
 graft pybind11/tools
 graft src
+global-include CMakeLists.txt *.cmake
 include CMakeLists.txt
 include pyproject.toml
 recursive-include src *
-recursive-include PyRocketSim *
+recursive-include PyRocketSim *.py
