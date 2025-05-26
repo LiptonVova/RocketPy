@@ -137,4 +137,8 @@ Thumbs.db
 *.swp
 *.swo
 *.sublime-workspace
+<<<<<<< HEAD
 *.sublime-project
+=======
+*.sublime-project
+>>>>>>> de96d7d7e2eebf041f2085c89bd8a2b9de5a81df
