@@ -27,9 +27,27 @@ Available for Python 3.10, 3.11, 3.12, and 3.13
 Available for Python 3.10, 3.11, 3.12, and 3.13
 
 ### 2. From source
-#### Prerequisites
-- Windows 11: Visual Studio 2022 with C++ tools
-- Ubuntu/Debian: gcc, g++, make
+#### 2.1. Windows 11
+**Prerequisites**: Visual Studio 2022 with C++ tools
+
+#### 2.2. Ubuntu/Debian
+**Prerequisites**: git, cmake, gcc/g++, make, python3, python3-pip (for point 2.2.3.)
+
+##### 2.2.1. Install Dependencies (if necessary)
+    sudo apt update
+    sudo apt install git cmake g++ make python3 python3-pip
+
+##### 2.2.2. Clone & Build Library
+    git clone --recursive https://github.com/LiptonVova/PyRocketSim.git
+    cd PyRocketSim
+    mkdir build
+    cd build
+    cmake ..
+    make
+
+##### 2.2.3. Install Python Package (editable mode)
+    cd ..
+    pip install -e .
 
 ## 🧪 Testing
 Test.py you can find on [GitHub](https://github.com/LiptonVova/RocketPy)
