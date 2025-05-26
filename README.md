@@ -17,12 +17,12 @@ The tool serves as an educational platform for aerospace students and rocketry e
 ### 1. Pre-built binaries (recommended)
 
 #### 1.1. Windows 11
-pip install PyRocketSim
+    pip install PyRocketSim
 
 Available for Python 3.10, 3.11, 3.12, and 3.13
 
 #### 1.2. Ubuntu 24.04
-pip install PyRocketSim
+    pip install PyRocketSim
 
 Available for Python 3.10, 3.11, 3.12, and 3.13
 
@@ -41,6 +41,9 @@ Test.py you can find on [GitHub](https://github.com/LiptonVova/RocketPy)
 ## 💡 Dependencies
 - NumPy
 - Matplotlib
+
+## 💾 PyPI
+You can find the project on PyPI [here](https://pypi.org/project/PyRocketSim/)
 
 ## 📜 License
 Project PyRocketSim is distributed under the MIT license
